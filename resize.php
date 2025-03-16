@@ -10,10 +10,10 @@ class AdminerResize
 	function head() {
 		// script para controlar a gestao de resize
 		?>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"<?= nonce() ?>></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"<?= nonce() ?>></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"<?= Adminer\nonce() ?>></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"<?= Adminer\nonce() ?>></script>
 		
-		<script type="text/javascript"<?= nonce() ?>>
+		<script type="text/javascript"<?= Adminer\nonce() ?>>
 			let resize_prev_x_pos = 0;
 			let resizing = false;
 
